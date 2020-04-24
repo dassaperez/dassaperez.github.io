@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+header, nav, main, footer {
+    max-width: 700px;
+    margin: .5rem auto;
+}
+header, footer {
+    background-color: #217286;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+header {
+    text-align: left;
+    position: relative;
+}
+header img{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #000;
+    margin: 15px 10px;
+}
+h1 {
+    padding: .6rem;
+    padding-left: 5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5em;
+}
+h2 {
+    border-bottom: 1px solid #ccc;
+    max-width: 600px;
+}
+
+footer a {
+    color: antiquewhite;
+}
+footer {
+    text-align: center;
+}
+footer p{
+    font-size: 14px;
+    line-height: .5rem;
+}
+footer .first {
+    padding-top: 15px;
+}
+footer .second {
+    padding-bottom: 15px;
+    color: yellow;
+}
+
+
+
