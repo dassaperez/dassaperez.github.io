@@ -1,17 +1,20 @@
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 60em) {
 
     main {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    
-section:nth-child(3) {
-    grid-column: span 1;
-}
-section h2 {
-    font-size: 1.2rem;
-}
-section a, p {
-    font-size: 1.2rem;
-}
+
+    section:nth-child(3) {
+        grid-column: span 1;
+    }
+
+    section h2 {
+        font-size: 1.2rem;
+    }
+
+    section a,
+    p {
+        font-size: 1.2rem;
+    }
 }
