@@ -28,6 +28,16 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
 }
+header a {
+    text-decoration: none;
+    background: whitesmoke;
+    color: #EC8619;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 100px;
+
+}
 
 main {
     display: grid;
