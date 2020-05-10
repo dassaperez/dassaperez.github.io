@@ -3,29 +3,39 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
-header, nav, main, footer {
+
+header,
+nav,
+main,
+footer {
     max-width: 700px;
     margin: .5rem auto;
 }
-header, footer {
+
+header,
+footer {
     background-color: #217286;
     color: antiquewhite;
 }
+
 header {
     text-align: left;
 }
+
 header img {
-    display:block;
+    display: block;
     margin: auto;
     width: 150px;
     height: auto;
 }
+
 h1 {
     padding: .6rem;
     padding-left: 5rem;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5em;
 }
+
 h2 {
     font-size: 1rem;
     border-bottom: 1px solid #ccc;
@@ -35,20 +45,21 @@ h2 {
 footer a {
     color: antiquewhite;
 }
+
 footer {
     text-align: center;
 }
-footer p{
+
+footer p {
     font-size: 14px;
     line-height: 1rem;
 }
+
 footer .first {
     padding-top: 15px;
 }
+
 footer .second {
     padding-bottom: 15px;
     color: yellow;
 }
-
-
-
