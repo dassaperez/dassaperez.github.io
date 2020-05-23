@@ -34,5 +34,34 @@
     .navigation li:first-child {
       display: none;
     }
+
+    /*------------------Herodiv-------------*/
+    .herodiv img {
+      width: 100%;
+      height: 280px;
+    }
    
+ /*-------------------Table------------------------*/
+    .forecast h2 {
+      display: block;
+    }
+    .forecast table {
+      display: table;
+    }
+/*---------------------Article----------------------*/
+.article h2 {
+  text-align: left;
+}
+p img {
+  float: right;
+  margin: 0 10px;
+}
+/*---------------------Social media------------------*/
+.map {
+  display: grid;
+}
+.map img {
+  display: block;
+}
+
   }
