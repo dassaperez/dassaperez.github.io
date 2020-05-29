@@ -47,7 +47,11 @@
     <main>
       <h2>Preston Idaho</h2>
       <div class="herodiv">
-        <img src="images/banner.jpg" class="img" alt="Beautiful spring"/>
+        <picture class="herodiv">
+          <source srcset="images/banner400.jpg" media="(max-width: 400px)">
+          <source srcset="images/banner800.jpg" media="(max-width: 800px)">
+          <img src="images/banner1200.jpg" class="img" alt="Beautiful spring"/>
+        </picture>
         <section class="stats">
           <h2>Weather Summary</h2>
           <p>Currently: <span id="currently">Sunny</span></p>
