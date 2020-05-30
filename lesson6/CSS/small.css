@@ -108,12 +108,13 @@ body {
     font-size: 1.3rem;
     border-bottom: 2px solid yellowgreen;
     color: yellow;
+    text-shadow: 2px 2px #000;
   }
   .herodiv p {
     margin: 0;
     font-size: 1.3rem;
     color: yellow;
-     text-shadow: #000; 
+     text-shadow: 2px 2px #000; 
      text-align: left;
   }
   .stats {
