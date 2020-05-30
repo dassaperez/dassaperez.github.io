@@ -54,11 +54,12 @@
         </picture>
         <section class="stats">
           <h2>Weather Summary</h2>
-          <p>Currently: <span id="currently">Sunny</span></p>
-          <p>Temperature: <span id="temperature">67°</span></p>
-          <p>Humidity: <span id="humidity">39%</span></p>
-          <p>Precipitation: <span id="precipitation">3%</span></p>
-          <p>Wind Speed: <span id="wind">4MPH</span></p>
+          <p class="info">Currently: <span id="currently">Sunny</span></p>
+          <p class="info">Temperature: <span id="temp">50</span>°F</p>
+          <p class="info">Wind Chill: <span id="chill">48</span>°F</p>
+          <p class="info">Humidity: <span id="humidity">42</span>%</p>
+          <p class="info">Precipitation: <span id="precipitation">52</span>%</p>
+          <p class="info">Wind Speed: <span id="wind">5</span>MPH</p>
         </section>
       </div>
       <div class="forecast">
@@ -153,5 +154,16 @@
     </footer>
 
     <script src="js/main6.js"></script>
+    <script src="js/windChill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+  google: {
+    families: [
+       'Roboto Slab', 'Sans-serif'
+    ]
+  }
+});
+    </script>
   </body>
 </html>
