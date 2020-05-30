@@ -92,7 +92,7 @@ body {
     display: block;
   }
   .navigation .fixed {
-    text-decoration: underline;
+    background-color: #585858;
   }
   /*-------------------Main-------------------*/
 
