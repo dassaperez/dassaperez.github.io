@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    color: #088A85;
+  }
+  
+  .grid-container {
+    display: grid; 
+    justify-content: center;
+    grid-template-columns: auto;
+   
+  }
+  picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  picture img {
+    filter: blur(0em);
+    transition: filter 0.8s;
+  }
+  
+  
+  
