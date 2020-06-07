@@ -1,0 +1,35 @@
+@media only screen and (min-width: 60em) 
+{
+   .headings h1 {
+    font-size: 3rem;
+  }
+  .motto {
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.container {  
+  max-width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.gallery img {
+  display: block;
+  max-width: 280px;
+  height: auto;
+  margin: auto;
+}
+
+figcaption {
+  font-size: 1.2rem;
+}
+
+figure:hover {
+  box-shadow: 0 0 20px #000;
+}
+.container .last{
+  grid-column: 3/4;
+}
+
+}

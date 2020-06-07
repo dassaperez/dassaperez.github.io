@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+  }
+
+  aside {
+    background-color: #088A85;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1rem;
+  }
+
+  header {
+    background-color: #2e2e2e;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .headings {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .headings h1 {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #fff;
+    margin: 0 auto;
+    font-size: .8rem;
+    text-align: center;
+  }
+  
+  nav {
+    margin: -15px auto;
+    background-color: #088A85;  
+  }
+  
+  .navigation {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navigation li:first-child {
+    display: block;
+  }
+  
+  .navigation li {
+    display: none;
+    
+  }
+  
+  .navigation a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  .navigation a:hover {
+    color: #fff;
+    background-color: #444;
+    font-weight: 500;
+  }
+  
+  /* the onclick JS toggles the .responsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #26.
+    <ul class="navigation responsive">
+    */
+  .responsive li {
+    display: block;
+  }
+  .navigation .fixed {
+    background-color: #585858;
+  }
+  /*-------------------Main-------------------*/
+  
+  h2 {
+    color: #088A85;
+    font-family: 'Roboto Slab', 'Open Sans';
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 50px 0 30px 0;
+  }
+.container {
+  display: grid; 
+  grid-column: 1/-1;
+  grid-row: auto; 
+}
+
+figure {
+  margin: 10px 30px;
+}
+
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+.gallery img {
+  display: block;
+  max-width: 280px;
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color:#088A85;
+  font-size: .9rem;
+  padding: 5px;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+
+  footer {
+    background-color: #088A85;
+    color:#FFF;
+    margin: 15px auto;
+    padding: 5px;
+    max-width: 860px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    max-width: 90%;
+  }
+  footer a {
+      color: #fff;
+  }
