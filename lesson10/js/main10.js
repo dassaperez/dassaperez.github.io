@@ -119,11 +119,4 @@ else {
   
   
     })
-  /*this is the font web loader*/
-  WebFont.load({
-    google: {
-        families: [
-            'Open Sans'
-    ]
-  }
-  });
+ 
