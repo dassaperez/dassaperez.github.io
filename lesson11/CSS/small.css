@@ -139,7 +139,7 @@ body {
   padding: 5px;
   border-radius: 10px;
   border: 1px solid #088A85;
-  box-shadow: 0px 0px 10px #585858;
+  box-shadow: 0px 0px 5px #585858;
 }
 
 .events h2 {
