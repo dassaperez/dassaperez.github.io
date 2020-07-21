@@ -245,7 +245,90 @@ th {
   color: #000;
  }
  tr:hover {background: #edbd75;}
+/*------------------Main Reservation----------------*/
+.information {
+  max-width: 90%;
+  text-align: justify;
+  margin: 0 auto;
+}
+.info {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
 
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #5ce4ff;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend {
+  color: #f47e01;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-size: 1.5rem;
+}
+
+from label.top, form div {
+  display: block;
+  padding: 1rem;
+  color: #9c2c13;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 90%;
+  max-width: 20rem;
+  background-color: rgba(0,0,0,0,.1);
+  margin-bottom: .75rem;
+}
+
+.flex {
+display: flex;
+flex-direction: column;
+width: 100%;
+max-width: 20rem;
+padding: .75rem;
+}
+form select {
+padding: .75rem 0;
+width: 100%;
+max-width: 20rem;
+}
+form label.sbs {
+  display: block;
+  padding: .75rem 0 0 0;
+  color:#333;
+  font-size: 1rem;
+}
+
+
+form input.submitBtn {
+  border: none;
+  background-color: #f47e01;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: 6px solid #f47e01;
+}
+
+form label.top input:required:valid {
+  border-left: 6px solid #5ce4ff;
+}
   /*----------------Social Media--------------------*/
 .contact {
   text-align: center;

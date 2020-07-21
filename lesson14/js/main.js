@@ -45,7 +45,9 @@ document.getElementById("year").textContent = year;
 // document.getElementById("updating").textContent = time;
 
 /*-------------------Week 5---------------*/
-
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
+}
 /* Current Date Code */
 
 const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};

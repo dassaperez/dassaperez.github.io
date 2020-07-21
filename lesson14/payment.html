@@ -43,58 +43,21 @@
     <main>
         
 
-      <h2>Information and Services</h2>
-      <div class="information">
-        <p class="info">A $50 security deposit is required to confirm reservation.</p>
-        <p class="info">A valid drivers license is required in hand a time of rental.</p>
-        <p class="info">No one under 12 years of age are allowed to ride on the scooters.</p>
-        <p class="info">Fuel charge not incluided.</p>
-        <p class="info">Unlimited mileage.</p>
-        <p class="info">Laibility insurance is free of charge.</p>
-        <p class="info">Reservations rate requires 24 hours prior notification.</p>
-        <p class="info">Free delivery to Cozumel hotel, Airbnb, or private residence for 2 + day rentals.</p>
-        <p class="info">Payment via Google Pay, cash, credit card, debit card, or Paypal.</p>
-        <p class="info">Rentals may be returned to either location.</p>
-      </div>
-      <form method="get" action="payment.html">
+      <h2>Reserve Today</h2>
 
+      <form action="#">
         <fieldset>
-            <legend>Agreement Information</legend>
-            <label class="top">Full Name* <input type="text" name="fullname"
-         pattern="[A-Za-z].{4,}" placeholder="First Last" required ></label>
-            <label class="top">Email* <input type="email" name="email" 
-                placeholder="someone@mail.com" required></label>
-            <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
-            <label class="top"> Rent Period <input type="date" name="date"></label>
-    
-            <label class="top">Rent Type   <input type="text" name="stormtype" list="stormlist" placeholder=" Please select">
-                <datalist id="stormlist">
-                    <option value="">Please select</option>
-                    <option value="Honda Scooters"></option>
-                    <option value="Honda Pioneer ATV"></option>
-                    <option value="Jeep Wrangler"></option>
-                </datalist>
-            </label>
-
-            <label class="sbs region">Country</label>    
-                <select name="region">
-                    <option>Country</option>
-                     <option value="Mexico">Mexico</option>
-                    <option value="United States">United States</option>
-                    <option value="Venezuela">Venezuela</option>
-                </select>
-        
+            <legend>Deposit Information</legend>
+            <label class="top">Card Number* <input type="number" name="fullname"
+                placeholder="************" required max="10" ></label>
+            <label class="top">Card Key* <input type="password" name="email" 
+                placeholder="************" required max="10"></label>
+                
+            <input type="submit" value=" Make Payment " class="submitBtn">
         </fieldset>
-
-        <fieldset>
-          <legend>Additional Info/Comments</legend>
-              <label class="sbs">Text here</label>
-              <textarea name="comments" rows="4" cols="30" minlength="10" maxlength="100"></textarea>
-      </fieldset>
-
-        <input type="submit" value=" Rent " class="submitBtn">
+        
       </form>
-
+      
         <section class="contact">
             <a
               class="socialmedia"
