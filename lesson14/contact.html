@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scoots</title>
-    <meta name="description" content="Scoots rental motocycles cozumel mexico tours jeep atv pioneer">
-    <link rel="shorcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/small.css">
-    <link rel="stylesheet" href="CSS/medium.css">
-    <link rel="stylesheet" href="CSS/large.css">
+    <meta
+      name="description"
+      content="Scoots rental motocycles cozumel mexico tours jeep atv pioneer"
+    />
+    <link rel="shorcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/small.css" />
+    <link rel="stylesheet" href="CSS/medium.css" />
+    <link rel="stylesheet" href="CSS/large.css" />
   </head>
 
   <body data-gr-c-s-loaded="true">
-
     <aside id="banner" style="display: block;">
       Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
       park pavilion.
@@ -22,7 +27,7 @@
 
     <header>
       <picture>
-        <img src="images/logo2.png" alt="logo">
+        <img src="images/logo2.png" alt="logo" />
       </picture>
       <section class="headings">
         <h1>Scoots</h1>
@@ -41,22 +46,72 @@
     </nav>
 
     <main>
-        
-        <section class="contact">
-            <a
-              class="socialmedia"
-              target="_blank"
-              href="https://www.facebook.com"
-            >
-              <img class="icon" src="images/facebook.png" alt="FB logo" />
-            </a>
-            <a class="socialmedia" target="_blank" href="https://www.twitter.com">
-              <img class="icon" src="images/twitter.png" alt="Twitter logo" />
-            </a>
-            <a class="socialmedia" target="_blank" href="https://www.youtube.com">
-              <img class="icon" src="images/youtube.jpg" alt="YouTube logo" />
-            </a>
-          </section>
+      <h2>Contact Us</h2>
+      <div class="history">
+        <img src="images/ferry.jpg" class="imagen" alt="ferry" />
+        <p class="tour">
+          Cozumel is a mostly undeveloped Mexican island in the Caribbean and is
+          a popular cruise port, famous for its dive sites. In the Cozumel Reef
+          National Park, there are diving spots around a section of the
+          Mesoamerican reef and the underwater sculptures of the Underwater
+          Museum of Art. Chankanaab is an ecological park that surrounds a
+          lagoon with underwater caves and that houses dolphins, manatees and
+          sea turtles. Cozumel is one of the oldest in Mexico and the most
+          important. It is a mixture of diverse cultural expressions, dances and
+          rhythms of the Yucatan Peninsula and the Caribbean.
+        </p>
+      </div>
+
+      <h2>We are just Here</h2>
+      <div class="map">
+        <img src="images/map.jpg" alt="Map of Cozumel" />
+      </div>
+
+      <form action="#">
+        <fieldset>
+          <legend>Contact Us</legend>
+          <label class="top"
+            >Full Name*
+            <input
+              type="text"
+              name="fullname"
+              pattern="[A-Za-z].{4,}"
+              placeholder="First Last"
+              required
+          /></label>
+
+          <label class="top"
+            >Email*
+            <input
+              type="email"
+              name="email"
+              placeholder="someone@mail.com"
+              required
+          /></label>
+
+          <input type="submit" value=" Send " class="submitBtn" />
+          <label class="sbs">Text here</label>
+          <textarea
+            name="comments"
+            rows="4"
+            cols="40"
+            minlength="10"
+            maxlength="100"
+          ></textarea>
+        </fieldset>
+      </form>
+
+      <section class="contact">
+        <a class="socialmedia" target="_blank" href="https://www.facebook.com">
+          <img class="icon" src="images/facebook.png" alt="FB logo" />
+        </a>
+        <a class="socialmedia" target="_blank" href="https://www.twitter.com">
+          <img class="icon" src="images/twitter.png" alt="Twitter logo" />
+        </a>
+        <a class="socialmedia" target="_blank" href="https://www.youtube.com">
+          <img class="icon" src="images/youtube.jpg" alt="YouTube logo" />
+        </a>
+      </section>
     </main>
 
     <footer>
@@ -72,12 +127,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({
-  google: {
-    families: [
-       'Merienda One'
-    ]
-  }
-});
+        google: {
+          families: ["Merienda One"],
+        },
+      });
     </script>
   </body>
 </html>

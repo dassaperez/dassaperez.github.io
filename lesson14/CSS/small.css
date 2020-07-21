@@ -223,6 +223,10 @@ body {
     text-decoration: none;
   }
 /*------------------Table Main Rentals---------------------*/
+main a {
+  text-decoration: none;
+  color: #000;
+}
 .table {
   display: none;
 }
@@ -341,10 +345,25 @@ form label.top input:required:valid {
   display: block;
   float: right;
   box-shadow: 0 0 10px #000;
+  width: 300px;
+  height: auto;
 }
 .tour {
   text-align: justify;
-  line-height: 25px;
+  line-height: 35px;
+  font-size: 1.2rem;
+}
+/*------------------Main Contact--------------------*/
+.map {
+  display: flex;
+  justify-content: center;
+}
+.map img {
+  border-radius: 10px;
+  max-width: 90%;
+  width: 500px;
+  margin: 10px;
+  box-shadow: 0 0 10px #000;
 }
   /*----------------Social Media--------------------*/
 .contact {
