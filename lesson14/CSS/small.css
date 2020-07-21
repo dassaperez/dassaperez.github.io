@@ -233,9 +233,7 @@ main a {
 table {
   margin: 0 auto;
 }
-table, th, td {
-  border:1px solid rgba (0,0,0,.2)
-}
+
 table {
   border-collapse: collapse;
   max-width: 60%;
@@ -291,7 +289,7 @@ form label.top input, form label.top select {
   color: #555;
   width: 90%;
   max-width: 20rem;
-  background-color: rgba(0,0,0,0,.1);
+  background: #edbd75;
   margin-bottom: .75rem;
 }
 
