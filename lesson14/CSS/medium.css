@@ -41,12 +41,12 @@
       height: 280px;
     }
    
- /*-------------------Table------------------------*/
+ /*-------------------Table home------------------------*/
     .section2 {
       display: block;
     }
     
-/*---------------------Article----------------------*/
+/*---------------------Article Main home----------------------*/
 .galery picture img {
   max-width: 190px;
   max-height: 160px;
@@ -63,6 +63,7 @@
   text-align: center;
   padding: 20px 0;
 }
-
+/*---------------------Table Main Rentals------------*/
+.table {display: block;}
 /*---------------------Social media------------------*/
 }

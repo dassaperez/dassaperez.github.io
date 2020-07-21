@@ -102,7 +102,7 @@ body {
     color: #fff;
     background-color: #edbd75;
   }
-  /*-------------------Main-------------------*/
+  /*-------------------Main Home-------------------*/
 
   main {max-width: 95%;margin:0 auto;}
   .img {
@@ -167,7 +167,7 @@ body {
     
     /* animation-interation-count:infinite; */
   }
-  /*-------------------Table------------------------*/
+  /*-------------------Table Home------------------------*/
 .section2 {
   display: none;
 }
@@ -222,6 +222,29 @@ body {
   .galery a {
     text-decoration: none;
   }
+/*------------------Table Main Rentals---------------------*/
+.table {
+  display: none;
+}
+table {
+  margin: 0 auto;
+}
+table, th, td {
+  border:1px solid rgba (0,0,0,.2)
+}
+table {
+  border-collapse: collapse;
+  max-width: 60%;
+  text-align: center;
+}
+th, td {
+  padding: 10px 20px;
+}
+th {
+  background: #5ce4ff;
+  color: #000;
+ }
+ tr:hover {background: #edbd75;}
 
   /*----------------Social Media--------------------*/
 .contact {
