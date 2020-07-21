@@ -329,6 +329,23 @@ form label.top input:required {
 form label.top input:required:valid {
   border-left: 6px solid #5ce4ff;
 }
+/*------------------Main Tours----------------------*/
+.history {
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #5ce4ff;  
+}
+.imagen {
+  border-radius: 10px;
+  margin: 20px;
+  display: block;
+  float: right;
+  box-shadow: 0 0 10px #000;
+}
+.tour {
+  text-align: justify;
+  line-height: 25px;
+}
   /*----------------Social Media--------------------*/
 .contact {
   text-align: center;
