@@ -47,19 +47,22 @@
     }
     
 /*---------------------Article----------------------*/
-.article h2 {
-  text-align: left;
+.galery picture img {
+  max-width: 190px;
+  max-height: 160px;
 }
-p img {
-  float: right;
-  margin: 0 10px;
+.rentals {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 0;
 }
-/*---------------------Social media------------------*/
-.map {
-  display: grid;
-}
-.map img {
-  display: block;
+.destinies {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px 0;
 }
 
-  }
+/*---------------------Social media------------------*/
+}
